@@ -43,7 +43,7 @@
     "bcryptjs": "latest",
     "boom": "^5.1.0",
     "chalk": "*",
-    "extend": "^3.0.0",
+    "extend": "^3.0.2",
     "gulp": "^3.9.1",
     "gulp-exit": "0.0.2",
     "hapi": "^16.4.3",
