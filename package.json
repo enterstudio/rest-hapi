@@ -16,7 +16,9 @@
   "scripts": {
     "test": "gulp test",
     "patch-release-git": "git add . && git commit -a -m 'patch release' && git push && npm version patch && npm publish",
-    "patch-release": "npm version patch && npm publish"
+    "patch-release": "npm version patch && npm publish",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -65,7 +67,8 @@
     "tap-colorize": "latest",
     "tape": "latest",
     "gulp-tape": "latest",
-    "blue-tape": "^1.0.0"
+    "blue-tape": "^1.0.0",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "rewire": "^2.5.2",
@@ -76,5 +79,6 @@
     "mockgoose": "^7.3.3",
     "query-string": "^5.0.0",
     "rmdir": "^1.2.0"
-  }
+  },
+  "snyk": true
 }
