@@ -52,7 +52,7 @@
     "joi": "^10.6.0",
     "joi-objectid": "^2.0.0",
     "jwt-simple": "^0.5.1",
-    "lodash": "~4.17.4",
+    "lodash": "~4.17.16",
     "loggin": "^3.0.1",
     "mkdirp": "0.5.1",
     "mongoose": "^4.6.3",
